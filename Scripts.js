@@ -1,14 +1,14 @@
-var myVar;
+let mylet;
 
 
 
 
-var minutes = document.getElementById("minutes").value;
-var seconds = document.getElementById("seconds").value;
+let minutes = document.getElementById("minutes").value;
+let seconds = document.getElementById("seconds").value;
 
 function start() {
-var innermin = document.getElementById("minutes");
-var innersec = document.getElementById("seconds");
+let innermin = document.getElementById("minutes");
+let innersec = document.getElementById("seconds");
 innermin.innerHTML = 30;
 innersec.innerHTML = "0" + 0;
 minutes = 30;
@@ -52,5 +52,3 @@ function stop () {
 clearInterval(x);
 
 }
-    
- 
