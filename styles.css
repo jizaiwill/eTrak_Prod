@@ -208,6 +208,11 @@ img.resize {
   height: auto;
 }
 
+img.mid {
+  width:45%; /* you can use % */
+  height: auto;
+}
+
 .center-pic {
   margin: 0 auto;
 }
