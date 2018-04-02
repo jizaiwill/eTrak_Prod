@@ -43,7 +43,7 @@ $(document).ready(function(){
         data : data,
         dataType : 'json',
         success : function (data) {
-           $('button').html(data)
+           $('#minutes').html(data)
         },
         error : function () {
            alert("error");
