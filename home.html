@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+       <link rel = "stylesheet" href="TeamView.css">
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link rel = "shortcut icon" type="image/png" href = "/images/etraklatest.png">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron|Oswald|Audiowide|Fjalla One|Exo 2|Rationale|Russo One|Oxygen|Montserrat">
+ 
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+ 
+        
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       
+       
+
+
+      
+   <script src = "Scripts.js"></script>  
+   <script src = "jquery.js"></script>      
+  
+            
+           
+</head>
+
+<body>
+
+
+
+<div class = "top">
+<div class = "navgroup">
+<a href = "index.html" class = "links">TRAKBUILDER</a>
+<a href = "index.html" class = "links">TRAKVIEW</a>
+<a href = "index.html" class = "links">TRAKLISTS</a>
+</div>
+<img src = "/images/etrackcircle copy.png" height = 50px width = 55px>
+
+
+
+
+<div class = "form">
+<form method = "post">
+<a href="#" class = "glyph" id = "traksetter" ><span class="glyphicon glyphicon-search"></span></a>
+<input list="tools" name="tool" id= "traks" placeholder = "Search Traks..."  class = "search">
+
+
+<br>
+<br>
+	<div id="traklist" class = "list"></div> 
+	
+	</div>
+
+
+</div>
+
+<h1 class = "time">
+
+<time id = "minutes">00</time>:<time id = "seconds">00</time>
+
+</h1>
+
+	
+</div>
+
+	
+
+
+
+<div class = "clock">
+
+
+
+<button type = "button" class = "trakbutton" onclick = "stop()">STOP<span class = "texter">CLOCK</span></button>
+<button type = "button"  class = "trakbutton" onclick = "clock()">START<span class = "texter">CLOCK</span></button>
+<button type = "button"  class = "trakbutton" onclick = "start()">SET<span class = "texter">CLOCK</span></button>
+
+  </div>      
+        
+</div>
+
+
+<br>
+
+<div id = "strengthfind"></div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<div id = "powertable">
+<table style = "width:95%;">
+<th class = "section" style = "width:83%;">Power
+
+<button type = "button"  class = "workbutton" onclick = "setall()">SET<span class = "texter">ROUNDS</span></button>
+<button type = "button"  class = "workbutton" onclick = "setall()">START<span class = "texter">ROUNDS</span></button>
+
+
+</th>
+
+<th class = "sethead">Rounds</th>
+<th class = "sets">4</th>
+<th class = "sethead">Work</th>
+<th class = "time">:20</th>
+<th class = "sethead">Rest</th>
+<th class = "time">:10</th>
+</table>
+<table class = "loads" >
+
+<th class = "zonefive" style = "width:12%;">MOVEMENT<span class = "text"></span> </th>
+
+<th class = "loads">LOAD<span class = "text"></span></th>
+<th class = "loads">Level<span class = "text"> 1</span> </th>
+<th class = "loads">Level<span class = "text"> 2</span> </th>
+<th class = "loads">Level<span class = "text"> 3</span> </th>
+<th class = "loads">Level<span class = "text"> 4</span> </th>
+<th class = "loads">Level<span class = "text"> 5</span> </th>
+<th class = "loads">Level<span class = "text"> 6</span> </th>
+<th class = "loads">Level<span class = "text"> 7</span> </th>
+<th class = "loads">Level<span class = "text"> 8</span> </th>
+<th class = "loads">Level<span class = "text"> 9</span> </th>
+<th class = "loads">Level<span class = "text"> 10</span> </th>
+
+
+<!-- Level Section -->
+
+<tr>
+<td class = "stats">
+Backsquat
+<td class = "loads">100lbs.</td>
+<td class = "loads">22</td>
+<td class = "loads">23</td>
+<td class = "loads">54</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+
+
+</tr>
+
+<tr>
+<td class = "stats">
+Backsquat
+
+<td class = "loads">100lbs.</td>
+<td class = "loads">22</td>
+<td class = "loads">23</td>
+<td class = "loads">54</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+
+</tr>
+<tr>
+<td class = "stats">
+Backsquat
+
+<td class = "loads">100lbs.</td>
+<td class = "loads">22</td>
+<td class = "loads">23</td>
+<td class = "loads">54</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+
+</tr>
+
+<tr>
+<td class = "stats">
+Backsquat
+
+<td class = "loads">100lbs.</td>
+<td class = "loads">22</td>
+<td class = "loads">23</td>
+<td class = "loads">54</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+
+</tr>
+
+<tr>
+<td class = "stats">
+Backsquat
+
+<td class = "loads">100lbs.</td>
+<td class = "loads">22</td>
+<td class = "loads">23</td>
+<td class = "loads">54</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+<td class = "loads">23</td>
+
+</tr>
+
+
+
+</table>
+</div>
+
+<br>
+
+
+
+
+</div>
+</div>
+</div>
+<br>
+<br>
+
+</body>
+</html>
