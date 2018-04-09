@@ -50,7 +50,6 @@ body {
   background-color: #cccccc;
 }
 
-}
 
 @media (min-width: 768px) {
   html {
@@ -214,7 +213,7 @@ body {
 
 @font-face {
   font-family: Digital;
-  src: url("/fonts/DS-DIGIB.TTF");
+  src: url("../fonts/DS-DIGIB.TTF");
 }
 
 img.resize {
