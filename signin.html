@@ -20,6 +20,12 @@
 
 <body>
     
+    <script type="text/javascript">
+           function logIn() {
+              window.location="http://etrakpro.com/home.html";
+           }
+     </script>
+
     <form class="form-signin">
         <img src="images/etrak.png" class="img-fluid" alt="eTrak">
         <div class="text-center mb-4">
@@ -42,9 +48,9 @@
             </label>
         </div>
 
-        <button class="btn btn-lg btn-success btn-block" type="submit">Sign In</button>
-        <p>Don't have an account? See Pricing
-            <a href="chooseplan.html">here</a>
+        <button class="btn btn-lg btn-success btn-block" href="home.html" type="submit" value="Redirect Me" onclick="logIn();">Sign In</button>
+        <!-- <p>Don't have an account? See Pricing
+            <a href="chooseplan.html">here</a> -->
         </p>
     </form>
 </body>
