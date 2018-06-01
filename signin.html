@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sign In</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -16,31 +16,29 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js"></script>
-<link rel = "shortcut icon" type="image/png" href= "/images/etraklatest.png">
-       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron|Oswald|Audiowide|Fjalla One|Exo 2|Rationale|Russo One|Oxygen|Montserrat">
-
-
-
-
 </head>
 
 <body>
     
-   
+    <script type="text/javascript">
+           function logIn() {
+              window.location="http://etrakpro.com/home.html";
+           }
+     </script>
 
-    <form class="form-signin" action="signin.php" method = "post">
+    <form class="form-signin">
         <img src="images/etrak.png" class="img-fluid" alt="eTrak">
         <div class="text-center mb-4">
-            <h1 class="h3 mb-3 font-weight-normal sign-inText" style= "color: #fff;">Sign In</h1>
+            <h1 class="h3 mb-3 font-weight-normal sign-inText">Sign In</h1>
         </div>
 
         <div class="form-label-group">
-            <input name= "username" type="email" id ="inputEmail" class="form-control" placeholder= "Email address"  required autofocus>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
             <label for="inputEmail">Email address</label>
         </div>
 
         <div class="form-label-group">
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" name= "password" required>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
             <label for="inputPassword">Password</label>
         </div>
 
@@ -50,7 +48,7 @@
             </label>
         </div>
 
-        <button class="btn btn-lg btn-success btn-block" name= "submit" type="submit" value="Redirect Me" onclick="logIn();">Sign In</button>
+        <button class="btn btn-lg btn-success btn-block" type="submit" value="Redirect Me" onclick="logIn();">Sign In</button>
         <!-- <p>Don't have an account? See Pricing
             <a href="chooseplan.html">here</a> -->
         </p>

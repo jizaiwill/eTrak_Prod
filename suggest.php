@@ -14,10 +14,10 @@ $conn = new mysqli($servername, $username, $password, $dbName);
 
  if(isset($_POST["query"]))  
  {  
-      $output = '<ul class="list-group">';  
+      $output = '';  
       $query = "SELECT `Trakname` FROM `TrakDatabase` WHERE `Trakname` LIKE '%".$_POST["query"]."%'";  
       $result = mysqli_query($conn, $query);  
-  
+      $output = '<ul class="list-unstyled">';  
       
       if(mysqli_num_rows($result) > 0)  
       {  
