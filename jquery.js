@@ -47,7 +47,7 @@ $(document).ready(function(){
     $('#traksetter').click(function(){
       var query2 = $('#traks').val();    
       var gender = $('#gender').val();
-      var age = $('#age').val();;
+      var age = $('#age').val();
       var units = $('#units').val();
       
       if(query2 != '')  
@@ -60,7 +60,7 @@ $(document).ready(function(){
                       $('#strengthfind').html(data);
      
                   
-                     ;}  
+                     }  
   
                 });  
 
@@ -75,7 +75,7 @@ $(document).ready(function(){
                      {                    
                       $('#level1x').html(data);
                   
-                     ;}  
+                     }  
   
                 });
          }   
@@ -89,7 +89,7 @@ $(document).ready(function(){
                      {                    
                       $('#notes').html(data); 
                                       
-                     ;}  
+                     }  
   
                 });  
 
@@ -774,7 +774,7 @@ $(document).on('change', 'input', function(){
  $(document).on('change', 'select', function(){  
       var query2 = $('#traks').val();  
       var gender = $('#gender').val();
-      var age = $('#age').val();;
+      var age = $('#age').val();
       var units = $('#units').val();
       if(query2 != '')  
            {        $.ajax({  
@@ -785,7 +785,7 @@ $(document).on('change', 'input', function(){
                      {                    
                       $('#strengthfind').html(data);
                   
-                     ;},
+                     },
             error: function(err) {
             alert(data);
             }  
