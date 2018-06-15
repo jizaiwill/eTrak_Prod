@@ -246,7 +246,7 @@ BUILD</a>
                          <table class="table-responsive"> 
                     
                       <thead>
-          <th style = "width:90%;"> <h1 style = "font-family:Audiowide;color:#333;">CONTROL</h1></th>
+          <th style = "width:90%;"> <h1 style = "font-family:Audiowide;color:#333;">WARMUP</h1></th>
         
          <th class = "zonetitle" style ="text-align:right;padding:6px; color:#111;font-size:12px;width:60px;font-family:Audiowide;">SETS</th>
         <th><input type= "number" style="width:50px;" id="warmsets"  style="text-align:center;padding:2px; color:#111;font-size:22px;font-family:Audiowide;"></th>

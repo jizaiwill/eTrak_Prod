@@ -76,7 +76,7 @@ $con = new mysqli($servername, $username, $password, $dbName);
      
       
        
-        $KB = '<img src = "/images/KB.png" height = 68px width = 78px>';
+    $KB = '<img src = "/images/KB.png" height = 68px width = 78px>';
 	$KBKB = '<img src = "/images/KB KB.png" height = 18px width = 28px>';
 	$DB = '<img src = "/images/DB.png" height = 15px width = 20px>';
 	$DBDB = '<img src = "/images/KB KB.png" height = 18px width = 28px>';
