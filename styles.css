@@ -191,6 +191,10 @@ body {
   max-width: 700px;
 }
 
+.middesign {
+  width: 50%;
+}
+
 .card-deck .card {
   min-width: 220px;
 }

@@ -105,7 +105,7 @@ $(document).ready(function(){
 $('#traksetter').click(function(){
   var query2 = $('#traks').val();    
   var gender = $('#gender').val();
-  var age = $('#age').val();;
+  var age = $('#age').val();
   var units = $('#units').val();
   
   if(query2 != '')  
@@ -117,30 +117,8 @@ $('#traksetter').click(function(){
                  {                    
                   $('#strengthfind').html(data);
  
-<<<<<<< HEAD
- $(document).ready(function(){
-    $('#traksetter').click(function(){
-      var query2 = $('#traks').val();    
-      var gender = $('#gender').val();
-      var age = $('#age').val();
-      var units = $('#units').val();
-      
-      if(query2 != '')  
-           {        $.ajax({  
-                     url:"traksearch.php",  
-                     method:"POST", 
-                     data:{query2:query2,gender:gender,age:age,units:units}, 
-                     success:function(data)  
-                     {                    
-                      $('#strengthfind').html(data);
-     
-                  
-                     }  
-  
-                });  
-=======
               
-                 ;}  
+                 }  
 
             });  
 
@@ -155,7 +133,7 @@ $('#traksetter').click(function(){
                  {                    
                   $('#level1x').html(data);
               
-                 ;}  
+                 }  
 
             });
      }   
@@ -169,50 +147,20 @@ $('#traksetter').click(function(){
                  {                    
                   $('#notes').html(data); 
                                   
-                 ;}  
+                 }  
 
             });  
 
        }  
       
->>>>>>> 283ea01f569f569e83d768bd7209b85aa0632cf9
 
          
 
  
        
-<<<<<<< HEAD
-       if(query2 != '')  
-           {        $.ajax({  
-                     url:"traklevels.php",  
-                     method:"POST", 
-                     data:{query2:query2},  
-                     success:function(data)  
-                     {                    
-                      $('#level1x').html(data);
-                  
-                     }  
-  
-                });
-         }   
-                 
-       if(query2 != '')  
-           {        $.ajax({  
-                     url:"notes.php",  
-                     method:"POST", 
-                     data:{query2:query2}, 
-                     success:function(data)  
-                     {                    
-                      $('#notes').html(data); 
-                                      
-                     }  
-  
-                });  
-=======
   });  
     
 });
->>>>>>> 283ea01f569f569e83d768bd7209b85aa0632cf9
 
 
 $(document).on('click', '#addnames', function(){  
@@ -848,39 +796,6 @@ if(ets8 > 0) {i++;}
   
   $('#escore1').text(((ets1 + ets2 + ets3 + ets4 + ets5 + ets6 + ets7 + ets8)/i).toFixed(2));
   
-<<<<<<< HEAD
-      });  
- 
- 
- 
-  $(document).on('change', "input[name='toolz']", function(){  
-	 $('#adminmin').html(1);
-                      
-            
-                });  
-     
-     
- $(document).ready(function(){       
- $(document).on('change', 'select', function(){  
-      var query2 = $('#traks').val();  
-      var gender = $('#gender').val();
-      var age = $('#age').val();
-      var units = $('#units').val();
-      if(query2 != '')  
-           {        $.ajax({  
-                     url:"traksearch.php",  
-                     method:"POST", 
-                     data:{query2:query2,gender:gender,age:age,units:units}, 
-                     success:function(data)  
-                     {                    
-                      $('#strengthfind').html(data);
-                  
-                     },
-            error: function(err) {
-            alert(data);
-            }  
-=======
->>>>>>> 283ea01f569f569e83d768bd7209b85aa0632cf9
   
 
   });  
@@ -898,7 +813,7 @@ $(document).ready(function(){
 $(document).on('change', 'select', function(){  
   var query2 = $('#traks').val();  
   var gender = $('#gender').val();
-  var age = $('#age').val();;
+  var age = $('#age').val();
   var units = $('#units').val();
   if(query2 != '')  
        {        $.ajax({  
@@ -909,7 +824,7 @@ $(document).on('change', 'select', function(){
                  {                    
                   $('#strengthfind').html(data);
               
-                 ;},
+                 },
         error: function(err) {
         alert(data);
         }  
