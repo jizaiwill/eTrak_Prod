@@ -23,7 +23,7 @@ $conn = new mysqli($servername, $username, $password, $dbName);
       {  
            while($row = mysqli_fetch_array($result))  
            {  
-                $output .= '<li>'.$row["Trakname"].'</li>';  
+                $output .= '<li  id="list">'.$row["Trakname"].'</li>';  
            }  
       }  
       else  

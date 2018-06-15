@@ -17,7 +17,7 @@ $tensionval=0;
 $stabval=0;
 $mobval=0;
 $endval=0;
-$not =3;
+$transition =0;
 
 
    if(isset($_POST["query2"]))  
@@ -131,64 +131,64 @@ $not =3;
 
 
 
-	if(strlen($warm1) > 0) {$warmval++;}
-	if(strlen($warm2) > 0) {$warmval++;}
-	if(strlen($warm3) > 0) {$warmval++;}
-	if(strlen($warm4) > 0) {$warmval++;}
-	if(strlen($warm5) > 0) {$warmval++;}
-	if(strlen($warm6) > 0) {$warmval++;}
-	if(strlen($warm7) > 0) {$warmval++;}
-	if(strlen($warm8) > 0) {$warmval++;}
+	if(strlen($warm1) > 0) {$warmval++;$transition++;}
+	if(strlen($warm2) > 0) {$warmval++;$transition++;}
+	if(strlen($warm3) > 0) {$warmval++;$transition++;}
+	if(strlen($warm4) > 0) {$warmval++;$transition++;}
+	if(strlen($warm5) > 0) {$warmval++;$transition++;}
+	if(strlen($warm6) > 0) {$warmval++;$transition++;}
+	if(strlen($warm7) > 0) {$warmval++;$transition++;}
+	if(strlen($warm8) > 0) {$warmval++;$transition++;}
 	
-	if(strlen($plyo1) > 0) {$plyoval++;}
-	if(strlen($plyo2) > 0) {$plyoval++;}
-	if(strlen($plyo3) > 0) {$plyoval++;}
-	if(strlen($plyo4) > 0) {$plyoval++;}
-	if(strlen($plyo5) > 0) {$plyoval++;}
-	if(strlen($plyo6) > 0) {$plyoval++;}
-	if(strlen($plyo7) > 0) {$plyoval++;}
-	if(strlen($plyo8) > 0) {$plyoval++;}
+	if(strlen($plyo1) > 0) {$plyoval++;$transition++;}
+	if(strlen($plyo2) > 0) {$plyoval++;$transition++;}
+	if(strlen($plyo3) > 0) {$plyoval++;$transition++;}
+	if(strlen($plyo4) > 0) {$plyoval++;$transition++;}
+	if(strlen($plyo5) > 0) {$plyoval++;$transition++;}
+	if(strlen($plyo6) > 0) {$plyoval++;$transition++;}
+	if(strlen($plyo7) > 0) {$plyoval++;$transition++;}
+	if(strlen($plyo8) > 0) {$plyoval++;$transition++;}
 
-	if(strlen($strength1) > 0) {$strval++;}
-	if(strlen($strength2) > 0) {$strval++;}
-	if(strlen($strength3) > 0) {$strval++;}
-	if(strlen($strength4) > 0) {$strval++;}
-	if(strlen($strength5) > 0) {$strval++;}
-	if(strlen($strength6) > 0) {$strval++;}
-	if(strlen($strength7) > 0) {$strval++;}
-	if(strlen($strength8) > 0) {$strval++;}
+	if(strlen($strength1) > 0) {$strval++;$transition++;}
+	if(strlen($strength2) > 0) {$strval++;$transition++;}
+	if(strlen($strength3) > 0) {$strval++;$transition++;}
+	if(strlen($strength4) > 0) {$strval++;$transition++;}
+	if(strlen($strength5) > 0) {$strval++;$transition++;}
+	if(strlen($strength6) > 0) {$strval++;$transition++;}
+	if(strlen($strength7) > 0) {$strval++;$transition++;}
+	if(strlen($strength8) > 0) {$strval++;$transition++;}
 	
-	if(strlen($tension1) > 0) {$tensionval++;}
-	if(strlen($tension2) > 0) {$tensionval++;}
-	if(strlen($tension3) > 0) {$tensionval++;}
-	if(strlen($tension4) > 0) {$tensionval++;}
-	if(strlen($tension5) > 0) {$tensionval++;}
-	if(strlen($tension6) > 0) {$tensionval++;}
-	if(strlen($tension7) > 0) {$tensionval++;}
-	if(strlen($tension8) > 0) {$tensionval++;}
+	if(strlen($tension1) > 0) {$tensionval++;$transition++;}
+	if(strlen($tension2) > 0) {$tensionval++;$transition++;}
+	if(strlen($tension3) > 0) {$tensionval++;$transition++;}
+	if(strlen($tension4) > 0) {$tensionval++;$transition++;}
+	if(strlen($tension5) > 0) {$tensionval++;$transition++;}
+	if(strlen($tension6) > 0) {$tensionval++;$transition++;}
+	if(strlen($tension7) > 0) {$tensionval++;$transition++;}
+	if(strlen($tension8) > 0) {$tensionval++;$transition++;}
 	
-	if(strlen($Endurance1) > 0) {$endval++;}
-	if(strlen($Endurance2) > 0) {$endval++;}
-	if(strlen($Endurance3) > 0) {$endval++;}
-	if(strlen($Endurance4) > 0) {$endval++;}
+	if(strlen($Endurance1) > 0) {$endval++;$transition++;}
+	if(strlen($Endurance2) > 0) {$endval++;$transition++;}
+	if(strlen($Endurance3) > 0) {$endval++;$transition++;}
+	if(strlen($Endurance4) > 0) {$endval++;$transition++;}
 	
-	if(strlen($stability1) > 0) {$stabval++;}
-	if(strlen($stability2) > 0) {$stabval++;}
-	if(strlen($stability3) > 0) {$stabval++;}
-	if(strlen($stability4) > 0) {$stabval++;}
-	if(strlen($stability5) > 0) {$stabval++;}
-	if(strlen($stability6) > 0) {$stabval++;}
-	if(strlen($stability7) > 0) {$stabval++;}
-	if(strlen($stability8) > 0) {$stabval++;}
+	if(strlen($stability1) > 0) {$stabval++;$transition++;}
+	if(strlen($stability2) > 0) {$stabval++;$transition++;}
+	if(strlen($stability3) > 0) {$stabval++;$transition++;}
+	if(strlen($stability4) > 0) {$stabval++;$transition++;}
+	if(strlen($stability5) > 0) {$stabval++;$transition++;}
+	if(strlen($stability6) > 0) {$stabval++;$transition++;}
+	if(strlen($stability7) > 0) {$stabval++;$transition++;}
+	if(strlen($stability8) > 0) {$stabval++;$transition++;}
 	
-	if(strlen($mobility2) > 0) {$mobval++;}
-	if(strlen($mobility3) > 0) {$mobval++;}
-	if(strlen($mobility4) > 0) {$mobval++;}
-	if(strlen($mobility5) > 0) {$mobval++;}
-	if(strlen($mobility6) > 0) {$mobval++;}
-	if(strlen($mobility7) > 0) {$mobval++;}
-	if(strlen($mobility8) > 0) {$mobval++;}
-	if(strlen($mobility9) > 0) {$mobval++;}
+	if(strlen($mobility2) > 0) {$mobval++;$transition++;}
+	if(strlen($mobility3) > 0) {$mobval++;$transition++;}
+	if(strlen($mobility4) > 0) {$mobval++;$transition++;}
+	if(strlen($mobility5) > 0) {$mobval++;$transition++;}
+	if(strlen($mobility6) > 0) {$mobval++;$transition++;}
+	if(strlen($mobility7) > 0) {$mobval++;$transition++;}
+	if(strlen($mobility8) > 0) {$mobval++;$transition++;}
+	if(strlen($mobility9) > 0) {$mobval++;$transition++;}
 
 	$minutes = number_format(($warmreps * 2 *$warmval * $warmsets)/60) 
 	+ number_format($strval * $strengthsets) 
@@ -196,7 +196,8 @@ $not =3;
 	+ number_format(($stabreps * 2 *$stabval * $stabsets)/60)
 	+ number_format($tensionval * $tensionsets) 
 	+ number_format(($stabreps * 2 *$stabval * $stabsets)/60) 
-	+ number_format($endval * 2 * $intervals + $interrest) 
+	+ number_format($endval * 2 * $intervals) 
+	+ number_format($transtion / 2) 
 	+ ($mobval);
         
         

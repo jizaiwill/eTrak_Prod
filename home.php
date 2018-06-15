@@ -1,4 +1,4 @@
- <?php
+<?php
 REQUIRE"auth.php";
 
 ?>
@@ -79,7 +79,7 @@ REQUIRE"auth.php";
  <a class="navbar-text" href="home.php" style= "text-align:center;"><span class="glyphicon glyphicon-eye-open" style="font-size:20px;"></span>VIEW</a>
   <a class="navbar-text" href="admin.php" style= "text-align:center;"><span class="glyphicon glyphicon-calendar" style="font-size:20px;"></span>
 BUILD</a>
-  <a class="navbar-text" href="#" style= "text-align:center;"><span class="glyphicon glyphicon-wrench" style="font-size:20px;"></span>TOOLS</a>
+  <a class="navbar-text" href="toolshed.php" style= "text-align:center;"><span class="glyphicon glyphicon-wrench" style="font-size:20px;"></span>TOOLS</a>
   <a class="navbar-text" href="#" style= "text-align:center;"><span class="glyphicon glyphicon-fire" style="font-size:20px;"></span>FUEL</a>
    <a class="navbar-text" href="#" style= "text-align:center;"><span class="glyphicon glyphicon-dashboard" style="font-size:20px;"></span>TEST</a>
     <a class="navbar-text" href="#" style= "text-align:center;"><span class="glyphicon glyphicon-stats" style="font-size:20px;"></span>REPORTS</a>
@@ -145,9 +145,9 @@ BUILD</a>
 
 
 <div class= "no-print">
-<div class="col-md-50 ml-sm-50  ol-lg-50 pt-3 px-4" style="margin-top:0px;">
+<div class="col" style="margin-top:0px;">
   <div class="row">
-  <div class="col-sm">
+  <div class="col">
      <h1 class= "zonetitle" style="color:#777;text-align:left;font-size:14px;">STOPWATCH<h1>
     </div>
     
@@ -165,7 +165,7 @@ BUILD</a>
   
   <div class="row">
   
-    <div class="col-sm"><br>
+    <div class="col"><br>
    <span class= "time" class= "no-print" id="minutes">00</span> <span class="time" class= "no-print" >:</span><span class= "time" class= "no-print" id="seconds">00</span><span class="time" class= "no-print">.</span><span class= "time" class= "no-print"  id="tens">00</span><br>
    
    <div class= "clock">
@@ -176,7 +176,7 @@ BUILD</a>
 
     </div>
     
-       <div class="col-sm" style="text-align:center;">
+       <div class="col" style="text-align:center;">
        <br>
    </span><input class= "time" class= "no-print" id="minutes2" style="text-align:right;" method= "post"><span class="time" class= "no-print">:</span><input class= "time" class= "no-print"  id="seconds2" style="text-align:left;"><br>
    
@@ -275,14 +275,6 @@ BUILD</a>
 </div>
 
 
-
-  <div class= "no-print">
-	<h1 class= "zonetitle" style="color:#111;text-align:left;font-size:24px;">NOTES: <div class="levelz" style="float:left;margin-right:10px;"><span class="glyphicon 			glyphicon-collapse-down" style="font-size:20px;cursor:pointer;" id="levelz3"></span>
-        </h1>
-  <textarea class="form-control" style="width:92%; font-family:Montserrat; font-size:14px; margin-left:30px;" id="notes"></textarea>
-  
-  </div>
-  
 	<div class="no-print">
 		<i class="glyphicon glyphicon-print" style="text-align:right; font-size:18px; float:right; padding-right:10px; padding-bottom:10px;" onclick = "myFunction();"></i>
 	</div>
@@ -302,7 +294,13 @@ BUILD</a>
                </div>
 
           </div>
-       
+     <div class= "no-print">
+	<h1 class= "zonetitle" style="color:#111;text-align:left;font-size:24px;">NOTES: <div class="levelz" style="float:left;margin-right:10px;"><span class="glyphicon 			glyphicon-collapse-down" style="font-size:20px;cursor:pointer;" id="levelz3"></span>
+        </h1>
+  <textarea class="form-control" style=" height:150px; font-family:Montserrat; font-size:14px;" id="notes"></textarea><br>
+  
+  
+  </div>  
         </main>
       </div>
     </div>
@@ -315,7 +313,7 @@ BUILD</a>
 
 <div class= "no-print" >
 <div class="col-md-50 ml-sm-50 ol-lg-10pt-3 px-4" style= "margin:0px;">
- <h1 class= "zonetitle" style="color:#111;text-align:left;font-size:24px;">LEVELS <div class= "levelz" style= "float:left; margin-right:10px;"><span class="glyphicon glyphicon-collapse-down" style="font-size:20px;cursor:pointer;" id="levelz"></span></div><button type="button" class="btn btn-dark btn-md"  id="addnames" style="width:100px; margin-left:10px;">ADD NAME</button></h1>
+ <h1 class= "zonetitle" style="color:#111;text-align:left;font-size:24px;">LEVELS <div class= "levelz" style= "float:left; margin-right:10px;"><span class="glyphicon glyphicon-collapse-down" style="font-size:20px;cursor:pointer;" id="levelz"></span></div></h1>
  <br>
     
   

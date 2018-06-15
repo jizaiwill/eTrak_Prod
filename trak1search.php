@@ -14,7 +14,7 @@ $con = new mysqli($servername, $username, $password, $dbName);
 
    if(isset($_POST['trak1']))  
  { 	$name = $_POST['trak1'];
- 	$query = "SELECT *FROM `TrakDatabase` Where `Trakname` LIKE '%".$name."%'";
+ 	$query = "SELECT *FROM `TrakDatabase` Where `Trakname` = '$name'";
 
            $result = mysqli_query($con, $query);  
   
